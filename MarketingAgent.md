@@ -40,7 +40,7 @@ Generate this context before using any tools:
 
 ## Instructions
 
-Use the findInfo tool to run through multiple paths this user could take, for each path, repeat this process 10 times. 
+Use the findInfo tool to run through multiple paths this user could take, for each path, repeat this process 5 times. Each time you generate a keyword assign a point, when you accumulate at least 50 points you can stop the process even before pursuing all paths.
 
 Each time:
 1. Generate keywords you believe could be useful in helping {business_name} generate more leads. 
