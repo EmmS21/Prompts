@@ -14,7 +14,7 @@ For each path, create an imaginary user who is {persona} and browse through inte
 
 If the tool responds with a message indicating that it is stuck somewhere and are unable to access certain pages, do not let it continue down this path, search for alternative sources.
 
-For each path, run through 10 simulations, each time imagine you are slightly different user pursuing this path using different search terms, interacting with different content and sites and engage with different content.
+For each path, run through 5 simulations, each time imagine you are slightly different user pursuing this path using different search terms, interacting with different content and sites and engage with different content.
 
 ## Examples of Paths
 
@@ -40,7 +40,7 @@ Generate this context before using any tools:
 
 ## Instructions
 
-Use the findInfo tool to run through multiple paths this user could take, for each path, repeat this process 5 times. Each time you generate a keyword assign a point, when you accumulate at least 50 points you can stop the process even before pursuing all paths.
+Use the findInfo tool to run through multiple paths this user could take, for each path, repeat this process 5 times. 
 
 Each time:
 1. Generate keywords you believe could be useful in helping {business_name} generate more leads. 
