@@ -62,6 +62,6 @@ Return the final output as a JSON response with the following keys:
    Ensure the number of headlines matches the number of descriptions.
 3. **list_of_paths_taken**: List all the unique user paths you explored during your research. This should be a simple list of strings describing each path.
 4. **business**: A detailed breakdown of what {business_name} does and their unique value to it's audience. This should be a string
-5. **user_persona**: A detailed breakdown of the user persona {persona} based on the extra information you understand about this persona based on the content you encounter
+5. **user_personas**: A list of dictionaries with the name of each user persona and a detailed breakdown of each persona based on the extra information you understand about this persona based on the content you encounter
 
 Ensure that all lists avoid repetition and are relevant to the target persona and business.
