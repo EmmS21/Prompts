@@ -4,13 +4,13 @@ Consider the set of instructions as lines of thinking to consider when acting.
 
 ## Context
 
-Create a list of possible paths {persona} could take to learn about {business_name} with an intention to change careers. Think of these paths as things this persona could read, sites they could visit and content they could search for while either:
+Create a list of possible paths each of these personas: {persona} could take to learn about {business_name} with an intention to change careers. Think of these paths as things this persona could read, sites they could visit and content they could search for while either:
 
 i. deciding to learn how to code/software engineering
 ii. deciding what to use to learn
 iii. finding support communities and other options
 
-For each path, create an imaginary user who is {persona} and browse through internet content they could interact with based on the context given to you. 
+For each path, create an imaginary user who is {persona} and browse through internet content they could interact with based on the context given to you. Do this for each persona 
 
 If the tool responds with a message indicating that it is stuck somewhere and are unable to access certain pages, do not let it continue down this path, search for alternative sources.
 
