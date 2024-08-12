@@ -5,7 +5,7 @@ Instructions
 2. Summarize the ad text (headlines and ad_text). Ensure that each headlines does not exceed 30 characters and each ad_text does not exceed 90 characters. This is absolutely necessary!. 
 3. Create 10 additional ad text variations based on the context you received and the keywords you have generated
 4. Run the ad headlines and text through the validate_ad_length tool. The tool will return a response indicating whether or not you need to summarize the headlines or descriptions, the function will indicate the index of the string in question. Summarize the ad text and headlines and run them through this tool, do not stop doing this until you explicitly receive a success response from this tool. 
-5. Return a JSON
+5. Return only a JSON and no other text
 The JSON should contain:
 - a dictionary of atleast 40 keywords. For each keyword include the data received from the keyword planner (search volume and competition)
 - at least 12 ad text variations (this should contain descriptions and ad text
