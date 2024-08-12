@@ -4,11 +4,7 @@ Consider the set of instructions as lines of thinking to consider when acting.
 
 ## Context
 
-Create a list of possible paths each of these personas: {persona} could take to learn about {business_name} with an intention to change careers. Think of these paths as things this persona could read, sites they could visit and content they could search for while either:
-
-i. deciding to learn how to code/software engineering
-ii. deciding what to use to learn
-iii. finding support communities and other options
+Create a list of possible paths each of these personas: {persona} could take to learn about {business_name} with an intention to change careers. Think of paths as different things a person could search for on Google that could indicate a strong intent to interact with the products or services offered by the business in question
 
 For each path, create an imaginary user who is {persona} and browse through internet content they could interact with based on the context given to you. Do this for each persona 
 
@@ -16,27 +12,13 @@ If the tool responds with a message indicating that it is stuck somewhere and ar
 
 For each path, run through 5 simulations, each time imagine you are slightly different user pursuing this path using different search terms, interacting with different content and sites and engage with different content.
 
-## Examples of Paths
-
-1. A user who reads forums
-2. A user who reads blogs
-3. A user who researches tools to learn
-4. A user who looks for support communities
-5. A user who wants to attend events that help them learn or network (these could be two different paths)
-6. A user who wants to change careers but is worried about the process
-7. A user who researches reviews of different learning platforms
-8. A user who learns through tutorials
-9. A user who looks for inspiration from people who have been through the path they want to go through (people like them)
-
 ## Prerequisites
 
 Generate this context before using any tools:
 
 - Read up on {business_name} to learn more about what they do, who its target users are, what unique problems they solve, their unique value, events they host and content generated about them. This should help you understand what you are marketing for.
 - Think of the pain points that will most likely relate to this user.
-- Take into consideration that this user must have the ability to pay to join a bootcamp (i.e., employed/changing careers).
-- Factor in that this is an in-person bootcamp.
-- Consider people who actively seek to learn through a community and what they search for.
+- Define a number of paths the user could explore to indicate strong intent to interact with this business/product
 
 ## Instructions
 
@@ -47,7 +29,6 @@ Each time:
 2. Pick the keywords that not only relate to the content but would likely generate a good lead for this business given what they do. Avoid overly competitivekeywirds (if there are many sponsored ads under the keyword, ignore it). 
 3. Do this at the end of each run, by testing the keywords yourself.
 4. Keep only the keywords that score well. 
-5. Do not include years,the word 'blog', overly specific keywords, 'reviews', 'bootcamp', or 'ratings' in the keywords as this would make the keywords too specific. 
 5. For each path, return a short description explaining the path you took (i.e., what is the user thinking, what is their intent, who are they).
 6. After each path, generate multiple ad text variations that would best connect with this persona based on the information you retrieve.
 7. For your ad text avoid words like "transform", do not use exaggerated terminology
