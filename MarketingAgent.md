@@ -14,7 +14,7 @@ If the tool responds with a message indicating that it is stuck somewhere and ar
 
 For each path, run through 5 simulations, each time imagine you are slightly different user pursuing this path using different search terms, interacting with different content and sites and engage with different content. Do not spend longer than a minute browsing the contents in each search
 
-Each time, generate keywords that could be used to find any good content you encounter. Define good as 'if someone where to read this, we can assume they have some intent to interact with the product or services of {business_name} based on what this business does. Generate atleast 50 keywords in total
+Each time, generate keywords that could be used to find any good content you encounter. Define good as 'if someone where to read this, we can assume they have some intent to interact with the product or services of {business_name} based on what this business does. Generate atleast 50 keywords in total. When generating keywords, pay special attention to the problem/pain points this business is solving and avoid any repetition (ie. if you include AI in two keywords avoid using AI again). The keywords have to relate to what the business does/sells and what it's users are likely to get from their product/service
 
 ## Prerequisites
 
