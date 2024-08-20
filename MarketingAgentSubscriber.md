@@ -25,7 +25,7 @@ Each time:
 
 ## Output Format
 
-Return the final output as a JSON response with the following keys:
+Return the final output as a JSON response with the following keys. Do not return any other text or explanations, just return the JSON alone:
 
 1. **list_of_keywords**: Provide a list of unique, relevant keywords for the marketing campaign. Include at least 50 keywords. Pick keywords that; relate to the content with a lot of engagement, appearing high on search terms and in a less competitive space
 2. **list_of_ad_text**: Create a set of ad texts, each consisting of a headline and a description. Provide at least 6 different ad texts. Format this as follows:
