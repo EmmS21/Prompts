@@ -6,7 +6,9 @@ Consider the set of instructions as lines of thinking to consider when acting.
 
 Identify the users who are likely to find this product or service valuable and group them into user personas. 
 
-Create a list of possible paths that each of these personas could that would show intent to interact with the products or services offered by {business_name}. Think of paths as different things a person could search for on Google that could indicate a strong intent to interact with the products or services offered by the business in question. For example, if I search for travel blogs I have an intent to travel, to potential buy airtickets and/or book hotels.
+Create a list of possible paths that each of these personas could that would show intent to interact with the products or services offered by {business_name}. This is their company website, use this to verify what they do {company_website}. 
+
+Think of paths as different things a person could search for on Google that could indicate a strong intent to interact with the products or services offered by the business in question. For example, if I search for travel blogs I have an intent to travel, to potential buy airtickets and/or book hotels.
 
 For each path, create a few 5 imaginary users for each persona. Pretend you are these imaginary users and browse through the internet using each path you defined to dictate what you should search for. Do this for each persona 
 
@@ -20,7 +22,7 @@ Each time, generate keywords that could be used to find any good content you enc
 
 Generate this context before using any tools:
 
-- Read up on {business_name} to learn more about what they do, who its target users are, what unique problems they solve, their unique value, events they host and content generated about them. This should help you understand what you are marketing for.
+- Read up on {business_name} to learn more about what they do, who its target users are, what unique problems they solve and their unique value. Use their company website for extra context {company_website}. This should help you understand what you are marketing for.
 - Think of the pain points that will most likely relate to this user.
 - Define user personas for {business_name}
 - Define a number of paths the user could explore to indicate strong intent to interact with this business/product
