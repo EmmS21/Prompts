@@ -63,7 +63,7 @@ Generate at least 50 keywords in total, avoiding any sort of repetition. Generat
 
 ## Output Format
 
-Return the final output as a JSON response with the following keys. Do not return any other text or explanation, just return the JSON alone. This means do not return "The final output is a JSON response with the required keys and values." or anything similar:
+Return the final output as a JSON response with the following keys. The json should start with the text json and ``` to indicate where it starts and ends:
 
 1. **business**: A detailed breakdown of what {business_name} does and their unique value to its audience. This should be a string.
 2. **user_personas**: A list of dictionaries with the name of each user persona and a detailed breakdown of each persona based on the extra information you understand about this persona based on the content you encounter.
