@@ -65,13 +65,12 @@ Generate at least 50 keywords in total, avoiding any sort of repetition. Generat
 
 Return the final output as a JSON response with the following keys. Do not return any other text or explanations, just return the JSON alone:
 
-1. **list_of_keywords**: Provide a list of unique, relevant keywords for the marketing campaign. Include at least 50 keywords.
-2. **list_of_ad_text**: Create a set of ad texts, each consisting of a headline and a description. Provide at least 10 different ad texts. Format this as follows:
-   - A "headlines" section with a list of all headlines (3 headlines per ad)
-   - A "descriptions" section with a list of all descriptions (2 descriptions per ad)
-   Ensure the number of headlines matches the number of descriptions.
+1. **business**: A detailed breakdown of what {business_name} does and their unique value to its audience. This should be a string.
+2. **user_personas**: A list of dictionaries with the name of each user persona and a detailed breakdown of each persona based on the extra information you understand about this persona based on the content you encounter.
 3. **list_of_paths_taken**: List all the unique user paths you explored during your research. This should be a simple list of strings describing each path and why you chose these.
-4. **business**: A detailed breakdown of what {business_name} does and their unique value to its audience. This should be a string.
-5. **user_personas**: A list of dictionaries with the name of each user persona and a detailed breakdown of each persona based on the extra information you understand about this persona based on the content you encounter.
+4. **list_of_keywords**: Provide a list of unique, relevant keywords for the marketing campaign. Include at least 50 keywords.
+5. **list_of_ad_text**: Create a set of ad texts, each consisting of three headlines and two descriptions. Provide at least 10 different ad texts. Format this as follows: A "headlines" section with a list of all headlines (3 headlines per ad, so at least 30 headlines total). A "descriptions" section with a list of all descriptions (2 descriptions per ad, so at least 20 descriptions total)
+ Ensure the number of headlines is 1.5 times the number of descriptions.
+6. **list_of_negative_keywords**: A list of negative keywords which we definitely want to avoid advertising to. These should be keywords that may be associated with the current keywords but will not generate relevant leads.
 
 Ensure that all lists avoid repetition and are relevant to the target personas and business.
