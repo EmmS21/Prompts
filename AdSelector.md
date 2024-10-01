@@ -7,4 +7,4 @@ Select {number_of_ads} to use to run Google Search Ads. Each ad must have 3 head
 ## Output Format
 Return the final output as a JSON response with the following keys. Do not return any other text or explanations, do not label it (eg. ```json) just return the JSON alone:
 
-**ad_variation**: A list of dictionaries containing the selected; headline, description and selected keywords
+**ad_variation**: A list of dictionaries containing the selected; headline (3 per ad), description (2 per ad) and selected keywords
