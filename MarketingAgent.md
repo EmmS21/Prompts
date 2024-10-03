@@ -10,11 +10,10 @@ Generate keywords and ad text that could be used for a Google Search Ad to captu
 2. After completing the first and second task, define who will likely use this product, grouping this into user personas. To define a user persona accurately, you will need to define their likely needs and goals and issues and paints points they might be currently facing that are related to the problems my business solves
 3. Once you have defined a set of user personas, define different research paths each persona could take that indicate intent to interact with the business. For example; a path could be “searching for travel content”. When a user searches for travel content, they will use a different variation of search queries with different keywords. Each keyword falling under this path would indicate (to varying degrees), intent to travel. Queries with a stronger call to action or greater urgency indicate stronger intent to travel. If we sell products related to travel we would want to target keywords that indicate stronger intent to travel.
 4. Given each user persona, generate keywords based on each research path that would indicate strong intent to interact with the business based on the problems it solves. These should be keywords that would be used for a Google Search Ad to get leads and convert them to paying customers. The stronger the intent the keyword shows, the more valuable it is. Do this for each persona and each path, returning a full list of keywords
-5. Review the keywords generated in step 4, rethink through each keyword, filtering out keywords that do not show strong intent. Keep in mind that the purpose of the keywords is for a Google Search Ad with the strategy of getting strong leads that are more inclined to convert to paying users
+5. Review the keywords generated in step 4, rethink through each keyword, filtering out keywords that do not show strong intent. Strong intent is measured by the likelihood of that keyword to result in a user converting to paying user. Keep in mind that the purpose of the keywords is for a Google Search Ad with the strategy of getting strong leads that are more inclined to convert to paying users
 6. Using the scraped content from the business and the context of the user personas, generate ad text. Follow the best practices for Google Ads included in the prompt
 7. Generate a set of negative keywords which we want to avoid advertising to. These should be keywords that may be associated with the current keywords but will not generate relevant leads (ie. if I am advertising airplane tickets I do not want to advertise to travelers researching alternative ways of travel). This list should not exceed 100 and should not include any duplicates
  
-
 
 # Best Practices for Google Ads
 ## Headline:
@@ -59,7 +58,7 @@ Your ad copy should also match the search term used by your audience. So let’s
 
 - Ad Copy needs to match the language used in the site’s landing page to some degree for consistency
 
-Generate at least 50 keywords in total, avoiding any sort of repetition. Generate at least 10 different ad text variations keeping in mind that each ad must have 3 headlines and 2 descriptions. The keywords have to relate to what the business does/sells and what its users are likely to get from their product/service.
+Generate at least 30 keywords in total, avoiding any sort of repetition. Generate at least 10 different ad text variations keeping in mind that each ad must have 3 headlines and 2 descriptions. The keywords have to relate to what the business does/sells and what its users are likely to get from their product/service.
 
 ## Output Format
 
@@ -68,8 +67,8 @@ Return the final output as a JSON response with the following keys. Do not retur
 1. **business**: A detailed breakdown of what {business_name} does and their unique value to its audience. This should be a string.
 2. **user_personas**: A list of dictionaries with the name of each user persona and a detailed breakdown of each persona based on the extra information you understand about this persona based on the content you encounter.
 3. **list_of_paths_taken**: List all the unique user paths you explored during your research. This should be a simple list of strings describing each path and why you chose these.
-4. **list_of_keywords**: Provide a list of unique, relevant keywords for the marketing campaign. Include at least 50 keywords.
-5. **list_of_ad_text**: Create a set of ad texts, each consisting of three headlines and two descriptions. Provide at least 10 different ad texts. Format this as follows: A "headlines" section with a list of all headlines (3 headlines per ad, so at least 30 headlines total). A "descriptions" section with a list of all descriptions (2 descriptions per ad, so at least 20 descriptions total)
+4. **list_of_keywords**: Provide a list of unique, relevant keywords for the marketing campaign. Include at least 30 keywords.
+5. **list_of_ad_text**: Create a set of ad texts, each consisting of three headlines and two descriptions. Provide at least 15 different ad texts. Format this as follows: A "headlines" section with a list of all headlines (3 headlines per ad, so at least 20 headlines total). A "descriptions" section with a list of all descriptions (2 descriptions per ad, so at least 10 descriptions total)
  Ensure the number of headlines is 1.5 times the number of descriptions.
 6. **list_of_negative_keywords**: A list of negative keywords which we definitely want to avoid advertising to. These should be keywords that may be associated with the current keywords but will not generate relevant leads.
 
