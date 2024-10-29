@@ -62,36 +62,11 @@ Generate at least 30 keywords in total, avoiding any sort of repetition. Generat
 3. DO NOT include any explanatory text outside the JSON structure
 4. Ensure all JSON keys and formatting are exactly as shown below
 
-
 ## Output Format
 
 Return the final output as a JSON response with the following keys. Do not return any other text, just the JSON:
 
-    YOU MUST RETURN YOUR RESPONSE IN THE FOLLOWING JSON FORMAT AND NOTHING ELSE:
-    {
-        "list_of_keywords": [
-            {
-                "keyword": "example keyword",
-                "search_volume": "1000",
-                "competitiveness": "LOW"
-            },
-            // ... more keywords until we have at least 15
-        ],
-        "list_of_ad_text": {
-            "headlines": [
-                "First Headline Example",
-                "Second Headline Example",
-                // ... at least 30 headlines
-            ],
-            "descriptions": [
-                "First Description Example",
-                "Second Description Example",
-                // ... at least 20 descriptions
-            ]
-        },
-        "list_of_negative_keywords": [
-            "negative keyword 1",
-            "negative keyword 2",
-            // ... more negative keywords
-        ]
-    }
+1. **list_of_keywords**: Provide a list of a dictionary of unique, relevant keywords for the marketing campaign. Include at least 15 keywords. For each keyword include the search volume + competiteveness of each keyword
+2. **list_of_ad_text**: Create a set of ad texts, each consisting of three headlines and two descriptions. Provide at least 15 different ad texts. Format this as follows: A "headlines" section with a list of all headlines (3 headlines per ad, so at least 20 headlines total). A "descriptions" section with a list of all descriptions (2 descriptions per ad, so at least 10 descriptions total)
+ Ensure the number of headlines is 1.5 times the number of descriptions.
+3. **list_of_negative_keywords**: A list of negative keywords which we definitely want to avoid advertising to. These should be keywords that may be associated with the current keywords but will not generate relevant leads.
