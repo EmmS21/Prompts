@@ -17,7 +17,7 @@ entirely new variations
 3. For each batch of new keywords:
    - Run them through the generate_keyword_ideas tool (DO NOT INCLUDE ANY OF THE OLD KEYWORDS {old_keywords} in this task)
    - If results are insufficient, generate another batch with different variations
-   - Continue until you have at least 15 validated keywords with good search volume. If you do not have enough keywords from this tool, return to step 2, generate new keywords and run them through step 3. Continue this process until you have at least 15 keywords
+   - Continue generating keywords and running them through the generate_keyword_ideas tool until you have at least 15 keywords outputted by this tool.
 4. Generate 30 new headlines and 20 new descriptions. These should be ad text that connect to the business's target audience 
 - Note: While {old_headlines} and {old_descriptions} provide context of ad-text pre-selected by the business, do not reuse them - generate entirely new variations
   
