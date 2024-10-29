@@ -7,17 +7,16 @@ You are an expert market researcher specializing in Google Ads keyword and ad te
    - Who it's target audience is
    - The services the business provides and the pain points it address
    - The old keywords selected by this business to generate Google Ads
-2. Based on the above context, take your time to generate 15 completely new themes based on:
-   - what the businesss does (e.g if the business provides legal services some themes would be; legal services, Legal Consultation )
-   - the problem the business solves (e.g if the business helps people find people to date some themes would be; dating services, find 
-      women to date, Matchmaking Services, Online Dating Platforms)
-   - the business's  unique selling point (e.g if the business is Stripe and their unique selling point is making online payment processing 
-      radically simple for developers some themes would be; payment processing tools, Subscription Billing Management, Point-of-Sale 
-      Integration and Financial Infrastructure for the Internet)
-   - Notice how the themes are generic but descriptive enough to describe the overarching idea of what the business does. Avoid themes that 
-     are too specific
-   - Note: While {old_keywords} provide context, do not under any circumstances use any of these - generate
-     entirely new variations.
+2. Based on the above context, take your time to generate 20 completely new themes based on:
+   - Industry (e.g., marketing, finance, healthcare)
+   - General business function (e.g., helping businesses grow, simplifying processes)
+   - Common pain points addressed (e.g., improving efficiency, reducing costs, increasing customer engagement)
+   - Unique selling points, without focusing on specific technologies or tools
+   - Ensure the themes:
+     - Are broad enough to apply to any business in a similar industry, avoiding specifics about technology or methods.
+     - Reflect common industry practices, business needs, or solutions, keeping the focus on the core value the business provides.
+     - Are distinct from old keywords {old_keywords} but still align with general search queries customers would use when looking for              solutions.
+     - Use these broad themes as input for generating specific keyword ideas and headlines.
    - Additionally, it is imperative to ensure that the keywords are actually keywords people could use when; searching for this business 
      and searching for content related to the pain points the business solves. The keywords should be keywords that show strong intent for 
      the user to become a customer of the business's services or products.
@@ -29,6 +28,18 @@ You are an expert market researcher specializing in Google Ads keyword and ad te
 5. Generate 30 new headlines and 20 new descriptions. These should be ad text that connect to the business's target audience 
    - Note: While {old_headlines} and {old_descriptions} provide context of ad-text pre-selected by the business, do not reuse them - 
      generate entirely new variations
+
+# Examples of Broad Themes
+
+Business growth tools
+Customer engagement solutions
+Cost-saving services
+Process automation platforms
+Online business tools
+Efficiency improvement solutions
+Marketing and sales optimization
+Customer acquisition strategies
+Problem-solving solutions for businesses
   
 # Best Practices for Google Ads
 ## Headline:
