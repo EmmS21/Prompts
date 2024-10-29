@@ -5,7 +5,7 @@ Consider the set of instructions as lines of thinking to consider when acting.
 
 # Instructions
 1. Using the business context: {business_context}, with an understanding of the business's user personas {user_personas} and based on keywords that have previously been selected {keywords} and ad_text (headlines: {headlines}, descriptions: {descriptions} that better speaks to the business's target audience. Use this information to generate a new set of keywords and ad_text
-2. Use tools available to filter out keywords that have low search volume
+2. Use the generate_keyword_ideas tool to filter out keywords that have low search volume
  
 # Best Practices for Google Ads
 ## Headline:
