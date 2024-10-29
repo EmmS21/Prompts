@@ -70,10 +70,11 @@ Your ad copy should also match the search term used by your audience. So let’s
 Generate at least 15 keywords in total, avoiding any sort of repetition. Generate at least 10 different ad text variations keeping in mind that each ad must have 3 headlines and 2 descriptions. The keywords have to relate to what the business does/sells and what its users are likely to get from their product/service.
 
 # Important
-1. Continue generating and testing keywords until you have at least 15 valid keywords with search volume data
-2. If the keyword tool returns empty results, try different variations or related keywords
-3. DO NOT include any explanatory text outside the JSON structure
-4. Ensure all JSON keys and formatting are exactly as shown below
+1. **Under no circumstances should any of the old keywords be used**. The new keywords must be entirely original and distinct from {old_keywords}.
+2. **Allocate sufficient effort and creativity** to generate new keywords. Do not rush this process.
+3. **Ensure that none of the new keywords overlap with old keywords**, even in different wording or order.
+4. **Do not include any explanatory text outside the JSON structure**.
+5. **Ensure all JSON keys and formatting are exactly as shown below**.
 
 ## Output Format
 
