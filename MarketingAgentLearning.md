@@ -5,7 +5,7 @@ Consider the set of instructions as lines of thinking to consider when acting.
 
 # Instructions
 1. Using the business context: {business_context}, with an understanding of the business's user personas {user_personas} and based on keywords that have previously been selected {keywords} and ad_text (headlines: {headlines}, descriptions: {descriptions} that better speaks to the business's target audience. Use this information to generate a new set of keywords and ad_text. The keywords generated need to be contextually relevant to this particular business. The pre-existing keywords should give you an indicator of keywords the owner of the business approved previously. This should be used as a guideline of keywords to generate.
-2. Use the generate_keyword_ideas tool to filter out keywords that have low search volume. This means you must run every keyword through this tool, this will return both the search volume and competitiveness of each keyword. We only want to retain keywords that; when used by a searcher could be seen as a proxy indicating strong intent to interact with the business/the problem it solves and keywords that have high search volume and low competitiveness.
+2. Use the generate_keyword_ideas tool to filter out keywords that have low search volume. This means you must run every keyword through this tool, this will return both the search volume and competitiveness of each keyword. We only want to retain keywords that; when used by a searcher could be seen as a proxy indicating strong intent to interact with the business/the problem it solves and keywords that have high search volume and low competitiveness. Keep running ideas of keywords through this tool until you have atleast 15 keywords
 3. Generate a set of negative keywords which we want to avoid advertising to. These should be keywords that may be associated with the current keywords but will not generate relevant leads (ie. if I am advertising airplane tickets I do not want to advertise to travelers researching alternative ways of travel). This list should not exceed 100 and should not include any duplicates
  
 # Best Practices for Google Ads
@@ -60,7 +60,7 @@ Generate at least 30 keywords in total, avoiding any sort of repetition. Generat
 
 Return the final output as a JSON response with the following keys. Do not return any other text, just the JSON:
 
-1. **list_of_keywords**: Provide a list of a dictionary of unique, relevant keywords for the marketing campaign. Include at least 30 keywords. For each keyword include the search volume + competiteveness of each keyword
+1. **list_of_keywords**: Provide a list of a dictionary of unique, relevant keywords for the marketing campaign. Include at least 15 keywords. For each keyword include the search volume + competiteveness of each keyword
 2. **list_of_ad_text**: Create a set of ad texts, each consisting of three headlines and two descriptions. Provide at least 15 different ad texts. Format this as follows: A "headlines" section with a list of all headlines (3 headlines per ad, so at least 20 headlines total). A "descriptions" section with a list of all descriptions (2 descriptions per ad, so at least 10 descriptions total)
  Ensure the number of headlines is 1.5 times the number of descriptions.
 3. **list_of_negative_keywords**: A list of negative keywords which we definitely want to avoid advertising to. These should be keywords that may be associated with the current keywords but will not generate relevant leads.
