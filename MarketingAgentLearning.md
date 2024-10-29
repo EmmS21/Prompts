@@ -7,18 +7,17 @@ You are an expert market researcher specializing in Google Ads keyword and ad te
    - Who it's target audience is
    - The services the business provides and the pain points it address
    - The old keywords selected by this business to generate Google Ads
-2. Based on the above context, take your time to generate 50 completely new keywords by:
-   - Exploring different aspects of the business's value proposition
-   - Using varied search intent patterns (informational, transactional, etc.)
-   - Considering different stages of the customer journey
-   - Creating long-tail variations that show high intent
+2. Based on the above context, take your time to generate 15 completely new themes based on:
+   - what the businesss does (e.g if the business provides legal services some themes would be; legal services, Legal Consultation )
+   - the problem the business solves (e.g if the business helps people find people to date some themes would be; dating services, find women to date, Matchmaking Services, Online Dating Platforms)
+   - the business's  unique selling point (e.g if the business is Stripe and their unique selling point is making online payment processing radically simple for developers some themes would be; payment processing tools, Subscription Billing Management, Point-of-Sale Integration and Financial Infrastructure for the Internet)
    Note: While {old_keywords} provide context, do not under any circumstances use any of these - generate
 entirely new variations. Additionally, it is imperative to ensure that the keywords are actually keywords people could use when; searching for this business and searching for content related to the pain points the business solves. The keywords should be keywords that show strong intent for the user to become a customer of the business's services or products.
-3. For each batch of new keywords:
-   - Run them through the generate_keyword_ideas tool (DO NOT INCLUDE ANY OF THE OLD KEYWORDS {old_keywords} in this task)
-   - If results are insufficient, generate another batch with different variations
-   - Continue generating keywords and running them through the generate_keyword_ideas tool until you have at least 15 keywords outputted by this tool.
-4. Generate 30 new headlines and 20 new descriptions. These should be ad text that connect to the business's target audience 
+4. Run all the themes into the generate_keyword_idea to generate ideas of keywords:
+   - Filter out keywords that are returned that clearly do not relate to this business
+   - If results are insufficient, generate new themes
+   - Continue generating themes and running them through the generate_keyword_ideas tool until you have at least 20 keywords outputted by this tool.
+5. Generate 30 new headlines and 20 new descriptions. These should be ad text that connect to the business's target audience 
 - Note: While {old_headlines} and {old_descriptions} provide context of ad-text pre-selected by the business, do not reuse them - generate entirely new variations
   
 # Best Practices for Google Ads
@@ -87,7 +86,7 @@ Return the final output as a JSON response with the following keys. Do not retur
                 "search_volume": "1000",
                 "competitiveness": "LOW"
             }},
-            // ... more keywords until we have at least 15
+            // ... more keywords until we have at least 20
         ],
         "list_of_ad_text": {{
             "headlines": [
